@@ -190,12 +190,12 @@
 
 	var counter = function() {
 		$('.js-counter').countTo({
-			 formatter: function (value, options) {
-	      return value.toFixed(options.decimals);
-	    },
+			formatter: function (value, options) {
+				return '~' + value.toFixed(options.decimals);
+			},
 		});
 	};
-
+	
 	var counterWayPoint = function() {
 		if ($('#fh5co-counter').length > 0 ) {
 			$('#fh5co-counter').waypoint( function( direction ) {
