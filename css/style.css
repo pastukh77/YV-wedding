@@ -895,6 +895,10 @@ form label {
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
 }
 
+#fh5co-header .move-up {
+  margin-top: -30px; /* Move the elements 20px up */
+}
+
 #fh5co-counter {
   text-align: center;
 }
@@ -942,8 +946,8 @@ form label {
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
-  width: 95px;
-  height: 95px;
+  width: 77px;
+  height: 77px;
   background: #e1c340;
   margin: 0 4px;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
@@ -979,7 +983,7 @@ form label {
 }
 
 .simply-countdown > .simply-section .simply-amount {
-  font-size: 30px;
+  font-size: 25px;
   /* amounts */
 }
 

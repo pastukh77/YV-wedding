@@ -64,7 +64,7 @@
 
         sectionTag = document.createElement('div');
         amountTag = document.createElement('span');
-        wordTag = document.createElement('span');
+        wordTag = document.createElement('p');
         innerSectionTag = document.createElement('div');
 
         innerSectionTag.appendChild(amountTag);
@@ -75,6 +75,10 @@
         sectionTag.classList.add(typeClass);
         amountTag.classList.add(parameters.amountClass);
         wordTag.classList.add(parameters.wordClass);
+
+        // Reduce the distance between amountTag and wordTag
+        amountTag.style.marginBottom = '0'; // Remove bottom margin from amountTag
+        wordTag.style.marginTop = '-10px'; // Adjust top margin of wordTag
 
         countdown.appendChild(sectionTag);
 
