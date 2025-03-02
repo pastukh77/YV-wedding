@@ -60,6 +60,7 @@ a:hover, a:active, a:focus {
 
 p {
   margin-bottom: 20px;
+  font-size: 20px;
 }
 
 h1, h2, h3, h4, h5, h6, figure {
@@ -937,6 +938,7 @@ form label {
 .simply-countdown {
   /* The countdown */
   margin-bottom: 2em;
+  padding: 1em;
 }
 
 .simply-countdown > .simply-section {
